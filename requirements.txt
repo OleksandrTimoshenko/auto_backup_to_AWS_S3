@@ -1,0 +1,4 @@
+pyzipper==0.3.6
+boto3==1.24.82
+python-dotenv==0.21.0
+plyer==2.0.0
