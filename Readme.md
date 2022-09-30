@@ -19,7 +19,7 @@
 
 ### Add cron task for script (additional step)
 * crontab -e
-* 0 12 * * * python3 /path/to/script/main.py
+* 0 12 * * * /path/to/python/python3 /path/to/script/main.py
 * crontab -l
 
 --------------------------------------------------------------------------------------------------
