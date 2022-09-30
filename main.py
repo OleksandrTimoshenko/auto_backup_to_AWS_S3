@@ -79,7 +79,7 @@ if __name__ == '__main__':
     delete_buckets_older_than = int(os.getenv("DELETE_BUCKETS_OLDER_THAN"))
     s3 = boto3.resource(
         service_name='s3',
-        region_name='eu-central-1',
+        region_name=os.getenv("AWS_REGION_NAME"),
         aws_access_key_id=os.getenv("AWS_ID"),
         aws_secret_access_key=os.getenv("AWS_SECRET")
     )
